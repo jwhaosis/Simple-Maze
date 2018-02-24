@@ -1,0 +1,38 @@
+jameswang@ubuntu:~/Dropbox/cosi105b_wanglin/pa-mazes$ ruby mazes.rb
+
+mazes> load 111111111100010001111010101100010101101110101100000101111011101100000101111111111
+Your maze has been successfully loaded.
+
+mazes> display
+*********
+*   *   *
+*** * * *
+*   * * *
+* *** * *
+*     * *
+*** *** *
+*     * *
+*********
+
+mazes> solve 1 1 7 7
+There is a valid path between (1, 1) and (7, 7).
+
+mazes> trace 1 1 7 7
+*********
+*000*000*
+***0*0*0*
+*000*0*0*
+*0***0*0*
+*00000*0*
+*** ***0*
+*     *0*
+*********
+
+mazes> save
+111111111100010001111010101100010101101110101100000101111011101100000101111111111
+
+mazes> exi
+Error: Command not recognized.
+
+mazes> exit
+Exiting the maze shell.
